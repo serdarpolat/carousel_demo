@@ -12,7 +12,7 @@ class BackLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedSwitcher(
-      duration: Duration(milliseconds: 300),
+      duration: Duration(milliseconds: 600),
       child: Container(
         width: s.width,
         height: s.height,
